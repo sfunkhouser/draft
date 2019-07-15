@@ -13,7 +13,7 @@ import (
 	"github.com/Azure/go-autorest/autorest/adal"
 	"github.com/Azure/go-autorest/autorest/azure/cli"
 
-	"github.com/Azure/draft/pkg/azure/iam/helpers"
+	"github.com/sfunkhouser/draft/pkg/azure/iam/helpers"
 )
 
 // OAuthGrantType specifies which grant type to use.

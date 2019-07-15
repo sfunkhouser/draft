@@ -10,9 +10,9 @@ import (
 	"google.golang.org/grpc"
 	"k8s.io/helm/pkg/helm"
 
-	"github.com/Azure/draft/pkg/local"
-	"github.com/Azure/draft/pkg/storage/kube/configmap"
-	"github.com/Azure/draft/pkg/tasks"
+	"github.com/sfunkhouser/draft/pkg/local"
+	"github.com/sfunkhouser/draft/pkg/storage/kube/configmap"
+	"github.com/sfunkhouser/draft/pkg/tasks"
 )
 
 const deleteDesc = `This command deletes an application from your Kubernetes environment.`

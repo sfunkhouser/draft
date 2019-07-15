@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/draft/pack"
+	"github.com/sfunkhouser/draft/pkg/draft/draftpath"
+	"github.com/sfunkhouser/draft/pkg/draft/pack"
 	"github.com/spf13/cobra"
 )
 

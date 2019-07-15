@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/Azure/azure-storage-blob-go/2016-05-31/azblob"
-	"github.com/Azure/draft/pkg/azure/blob"
-	"github.com/Azure/draft/pkg/azure/containerregistry"
-	"github.com/Azure/draft/pkg/builder"
+	"github.com/sfunkhouser/draft/pkg/azure/blob"
+	"github.com/sfunkhouser/draft/pkg/azure/containerregistry"
+	"github.com/sfunkhouser/draft/pkg/builder"
 	"github.com/Azure/go-autorest/autorest/adal"
 	azurecli "github.com/Azure/go-autorest/autorest/azure/cli"
 	"github.com/Azure/go-autorest/autorest/to"

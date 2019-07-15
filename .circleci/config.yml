@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: /go/src/github.com/Azure/draft
+    working_directory: /go/src/github.com/sfunkhouser/draft
     docker:
       - image: golang:1.11.1
     environment:
@@ -9,7 +9,7 @@ jobs:
       AZURE_STORAGE_ACCOUNT: "azuredraft"
     steps:
       - checkout
-      - run: echo 'export PATH=/go/src/github.com/Azure/draft/bin:$PATH' >> $BASH_ENV
+      - run: echo 'export PATH=/go/src/github.com/sfunkhouser/draft/bin:$PATH' >> $BASH_ENV
       - run:
           name: install dependencies
           command: .circleci/bootstrap.sh

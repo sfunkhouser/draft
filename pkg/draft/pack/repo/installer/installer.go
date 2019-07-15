@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/draft/pack/repo"
-	"github.com/Azure/draft/pkg/plugin/installer"
+	"github.com/sfunkhouser/draft/pkg/draft/draftpath"
+	"github.com/sfunkhouser/draft/pkg/draft/pack/repo"
+	"github.com/sfunkhouser/draft/pkg/plugin/installer"
 )
 
 type base struct {

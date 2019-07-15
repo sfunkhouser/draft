@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/plugin"
+	"github.com/sfunkhouser/draft/pkg/draft/draftpath"
+	"github.com/sfunkhouser/draft/pkg/plugin"
 )
 
 // special thanks to the Kubernets Helm plugin installer pkg

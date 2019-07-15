@@ -21,16 +21,16 @@ import (
 	"golang.org/x/net/context"
 	"k8s.io/client-go/rest"
 
-	"github.com/Azure/draft/pkg/azure/containerregistry"
-	"github.com/Azure/draft/pkg/azure/iam"
-	"github.com/Azure/draft/pkg/builder"
-	azurecontainerbuilder "github.com/Azure/draft/pkg/builder/azure"
-	dockercontainerbuilder "github.com/Azure/draft/pkg/builder/docker"
-	"github.com/Azure/draft/pkg/cmdline"
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/local"
-	"github.com/Azure/draft/pkg/storage/kube/configmap"
-	"github.com/Azure/draft/pkg/tasks"
+	"github.com/sfunkhouser/draft/pkg/azure/containerregistry"
+	"github.com/sfunkhouser/draft/pkg/azure/iam"
+	"github.com/sfunkhouser/draft/pkg/builder"
+	azurecontainerbuilder "github.com/sfunkhouser/draft/pkg/builder/azure"
+	dockercontainerbuilder "github.com/sfunkhouser/draft/pkg/builder/docker"
+	"github.com/sfunkhouser/draft/pkg/cmdline"
+	"github.com/sfunkhouser/draft/pkg/draft/draftpath"
+	"github.com/sfunkhouser/draft/pkg/local"
+	"github.com/sfunkhouser/draft/pkg/storage/kube/configmap"
+	"github.com/sfunkhouser/draft/pkg/tasks"
 )
 
 const upDesc = `

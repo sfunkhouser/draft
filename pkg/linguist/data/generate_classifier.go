@@ -19,7 +19,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/Azure/draft/pkg/linguist/tokenizer"
+	"github.com/sfunkhouser/draft/pkg/linguist/tokenizer"
 	"github.com/jbrukh/bayesian"
 )
 

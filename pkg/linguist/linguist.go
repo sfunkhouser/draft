@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/draft/pkg/osutil"
+	"github.com/sfunkhouser/draft/pkg/osutil"
 	log "github.com/sirupsen/logrus"
 )
 

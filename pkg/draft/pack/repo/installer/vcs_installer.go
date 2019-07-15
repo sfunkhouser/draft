@@ -10,10 +10,10 @@ import (
 	"github.com/Masterminds/vcs"
 	"k8s.io/helm/pkg/plugin/cache"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/draft/pack/repo"
-	"github.com/Azure/draft/pkg/osutil"
-	"github.com/Azure/draft/pkg/plugin/installer"
+	"github.com/sfunkhouser/draft/pkg/draft/draftpath"
+	"github.com/sfunkhouser/draft/pkg/draft/pack/repo"
+	"github.com/sfunkhouser/draft/pkg/osutil"
+	"github.com/sfunkhouser/draft/pkg/plugin/installer"
 )
 
 //VCSInstaller installs packs from a remote repository

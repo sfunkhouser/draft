@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Azure/draft/pkg/draft/draftpath"
-	"github.com/Azure/draft/pkg/plugin"
+	"github.com/sfunkhouser/draft/pkg/draft/draftpath"
+	"github.com/sfunkhouser/draft/pkg/plugin"
 
 	"github.com/spf13/cobra"
 )
